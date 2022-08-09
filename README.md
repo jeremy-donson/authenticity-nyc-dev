@@ -31,6 +31,7 @@
   - Support [Calendar Sharing API](https://developers.google.com/calendar/api) => Who-Why-When-What-Where-How
   - Support [EventBrite API](https://www.eventbrite.com/platform/docs/api-basics)
   - [Calendar Service Event Aggregation Support Testing](https://talk.jekyllrb.com/t/how-to-fetch-an-ics-icalendar-response-and-show-it-in-jekyll/5723)
+  - Automation tools: https://github.com/topics/facebook-event
 
 #### Site Map
 - We plan to use this [jekyll theme](https://www.fourkitchens.com/blog/article/jekyll-event-schedule/).
