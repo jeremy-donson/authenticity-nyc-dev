@@ -20,12 +20,12 @@
   - Look at [using gitpod with jekyll](https://talk.jekyllrb.com/t/new-video-develop-jekyll-or-github-pages-using-docker-containers/7199) for realtime team dev collaboration.
   - We will use [postman](https://www.tecmint.com/install-postman-on-linux-desktop/) and [selenium](https://medium.com/@fortheloveoftech/automating-facebook-events-with-python-and-selenium-dca4c52e2513) for testing
   - Review entire Static Site Project Setup process towards automation using terraform, vagrant and docker.
-  - Remember to test URLs for proper [object graph tags](https://ogp.me/#types).  [Jekyll og info](https://gist.github.com/davidensinger/5431869).
+  - Remember to test URLs for proper seo + [object graph tags](https://ogp.me/#types).  [Jekyll og info](https://gist.github.com/davidensinger/5431869).
   - Consider [jekyll i18n tools](https://polyglot.untra.io/).
 ---
 #### Version 1
   - [Site Map](#site-map)
-  - [Info Achitecture](#info-architecture)
+  - [Information Achitecture](#information-architecture)
   - Support [ICS File Format Spec](https://docs.fileformat.com/email/ics/)
   - Support [FB Event Posts](https://www.facebook.com/events/3310363792539939) => Note that we can export an ics file from a FB event.
   - Support [Calendar Sharing API](https://developers.google.com/calendar/api) => Who-Why-When-What-Where-How
@@ -40,8 +40,14 @@
   - Site Map Page Using [Jekyll Site Map Plug-In](https://github.com/jekyll/jekyll-sitemap)
   - Calendars => Calendars Landing Page => Calendar of Events => Event Detail Page
   - Event Locations Page By Date
----
 
+#### Information Architecture
+  - Calendars have many events.
+  - Local events count.  Events by zips?
+  - ICS format syncs => Pull from FB Event Post / Push to FB Event Post
+  - Other API's:  gcal + eventbrite + meetup + ??
+
+---
 #### Version 2
   - [Site Map](#site-map)
   - [Info Achitecture](#info-architecture)
