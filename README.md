@@ -44,7 +44,7 @@
 #### Information Architecture
   - Calendars have many events.
   - Local events count.  Events by zips?
-  - ICS format syncs => Pull from FB Event Post / Push to FB Event Post
+  - ICS format syncs => Pull from FB Event Post / Push to FB Event Post => singleton + batch
   - Other API's:  gcal + eventbrite + meetup + ??
 
 ---
