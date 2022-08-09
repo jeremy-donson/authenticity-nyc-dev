@@ -26,7 +26,6 @@
 #### Version 1
   - [Site Map](#site-map)
   - [Info Achitecture](#info-architecture)
-  - [Jekyll Site Map Plug-In](https://github.com/jekyll/jekyll-sitemap)
   - Support [ICS File Format Spec](https://docs.fileformat.com/email/ics/)
   - Support [FB Event Posts](https://www.facebook.com/events/3310363792539939) => Note that we can export an ics file from a FB event.
   - Support [Calendar Sharing API](https://developers.google.com/calendar/api) => Who-Why-When-What-Where-How
@@ -35,12 +34,12 @@
 
 #### Site Map
 - We plan to use this [jekyll theme](https://www.fourkitchens.com/blog/article/jekyll-event-schedule/).
-
-- HOME PAGE NAVS
+- HOME PAGE MAIN NAVS
+  - Return2Home
   - About Pages: [FB Groups](https://linktr.ee/authenticitynyc) + Jazz Venues + Musical Artists + Community Pillars + Sponsors + Alliances
+  - Site Map Page Using [Jekyll Site Map Plug-In](https://github.com/jekyll/jekyll-sitemap)
   - Calendars => Calendars Landing Page => Calendar of Events => Event Detail Page
   - Event Locations Page By Date
-  - Site Map Page
 ---
 
 #### Version 2
