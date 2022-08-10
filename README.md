@@ -30,6 +30,8 @@
   - Support latest version of [ICS File Format Spec](https://icalendar.org/)
   - Support [FB Event Posts](https://www.facebook.com/events/3310363792539939) => Note that we can export an ics file from a FB event.
   - ![curl-or-selenium](https://user-images.githubusercontent.com/34130568/183911688-cbe75714-52f5-49eb-9072-2db3b55a25a6.png)
+    - [e757019095504419.ics.zip](https://github.com/jeremy-donson/authenticity-nyc-dev/files/9300497/e757019095504419.ics.zip)
+    - That ics file was exported from this [fb event post](https://www.facebook.com/events/757019095504419/).
   - Support [Calendar Sharing API](https://developers.google.com/calendar/api) => Who-Why-When-What-Where-How
   - Support [EventBrite API](https://www.eventbrite.com/platform/docs/api-basics)
   - [Calendar Service Event Aggregation Support Testing](https://talk.jekyllrb.com/t/how-to-fetch-an-ics-icalendar-response-and-show-it-in-jekyll/5723)
