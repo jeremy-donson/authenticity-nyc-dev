@@ -32,10 +32,34 @@
   - ![curl-or-selenium](https://user-images.githubusercontent.com/34130568/183911688-cbe75714-52f5-49eb-9072-2db3b55a25a6.png)
     - [e757019095504419.ics.zip](https://github.com/jeremy-donson/authenticity-nyc-dev/files/9300497/e757019095504419.ics.zip)
     - That ics file was exported from this [fb event post](https://www.facebook.com/events/757019095504419/).
+    - Focus on group events:  https://developers.facebook.com/docs/graph-api/reference/event/
   - Support [Calendar Sharing API](https://developers.google.com/calendar/api) => Who-Why-When-What-Where-How
   - Support [EventBrite API](https://www.eventbrite.com/platform/docs/api-basics)
   - [Calendar Service Event Aggregation Support Testing](https://talk.jekyllrb.com/t/how-to-fetch-an-ics-icalendar-response-and-show-it-in-jekyll/5723)
   - Automation tools: https://github.com/topics/facebook-event
+
+- FB Testing:
+  - GET ics file from FB api => ics+
+  - POST ics+ to FB as a group event. => methods... curl, selenium, ??
+  - Consider singleton and batch options.
+  - Target other FB event api data points to scrape, like: geo, venue, band, event post images
+
+- gCal Testing:
+  - GET ics file from gCal api => ics+. Two test gmail accounts will support this.
+  - Identify any missing data points.
+  - Identify any missing data values.
+  - Consider singleton and batch options.
+
+- Other apis to eval:
+  - meetup
+  - eventbrite
+  - github api has a nice i18n setup for jekyll doc => https://docs.github.com/en/rest
+
+- Those docs are all translated into:
+  - 简体中文
+  - 日本語
+  - Español
+  - Português do Brasil
 
 #### Site Map
 - We plan to use this [jekyll theme](https://www.fourkitchens.com/blog/article/jekyll-event-schedule/).
