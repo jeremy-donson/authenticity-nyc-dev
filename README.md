@@ -51,6 +51,7 @@
   - Local events count.  Events by zips?
   - ICS format syncs => Pull from FB Event Post / Push to FB Event Post => singleton + batch
   - Other API's:  gcal + eventbrite + meetup + ??
+  - API GET calls are easy.  POST calls are not!!  Curl or [Selenium](https://github.com/ethanXWL/Python-Selenium-Facebook-group-auto-poster/blob/master/README.md)?
 
 ---
 #### Version 2
