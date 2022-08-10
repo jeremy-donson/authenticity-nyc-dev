@@ -59,6 +59,7 @@
   - [Info Achitecture](#v2-info-architecture)
 
 - https://mincong.io/en/jekyll-i18n/
+- https://www.klaasnotfound.com/2017/02/16/proper-multilingual-site-with-github-pages-and-jekyll/
 
 #### References
 - [Docs: Github Pages Using Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll)
