@@ -24,8 +24,8 @@
   - Consider [jekyll i18n tools](https://polyglot.untra.io/).
 ---
 #### Version 1
-  - [Site Map](#site-map)
-  - [Information Achitecture](#information-architecture)
+  - [V1 Site Map](#v1-site-map)
+  - [V1 Information Achitecture](#v1-information-architecture)
   - Support [ICS File Format Spec](https://docs.fileformat.com/email/ics/)
   - Support latest version of [ICS File Format Spec](https://icalendar.org/)
   - Support [FB Event Posts](https://www.facebook.com/events/3310363792539939) => Note that we can export an ics file from a FB event.
@@ -54,8 +54,10 @@
 
 ---
 #### Version 2
-  - [Site Map](#site-map)
-  - [Info Achitecture](#info-architecture)
+  - [Site Map](#v2-site-map)
+  - [Info Achitecture](#v2-info-architecture)
+
+- https://mincong.io/en/jekyll-i18n/
 
 #### References
 - [Docs: Github Pages Using Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll)
