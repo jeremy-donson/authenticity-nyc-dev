@@ -27,6 +27,7 @@
   - [Site Map](#site-map)
   - [Information Achitecture](#information-architecture)
   - Support [ICS File Format Spec](https://docs.fileformat.com/email/ics/)
+  - Support latest version of [ICS File Format Spec](https://icalendar.org/)
   - Support [FB Event Posts](https://www.facebook.com/events/3310363792539939) => Note that we can export an ics file from a FB event.
   - Support [Calendar Sharing API](https://developers.google.com/calendar/api) => Who-Why-When-What-Where-How
   - Support [EventBrite API](https://www.eventbrite.com/platform/docs/api-basics)
