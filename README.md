@@ -41,19 +41,24 @@ Version 2 has other goals for ics+ format.
   - Speak to whether you want to work solo or with a team.
 
 - Project-Specific Skills:
-  - Required: Main tasks require github pages from jekyll templates and completed html.
+  - Required: Main tasks require github pages from jekyll front matter templates and completed html.
   - Required: Some Knowledge of Facebook Graph API Queries.
   - Required: Basic Bash/Linux CLI Skills
-  - Nice To Have: Knowledge of Github Pages + Actions.
+  - Nice To Have: Knowledge of Github Pages
+  - Nice To Have: Knowledge of Github Actions
 
 - To Get Started:
   - Show that you can run jekyll locally as well as via github pages.
   - Show a completed project where you did that same kind of work.
+  - How many total years of professional experience working in English?
+  - Do you want to improve your English skills?
   - Review github project specs (README.md).  Inquire about diagram.
   - Target First Small Assignment: ICS+ Format Version 1 event template and page.
     - Determine exact deliverables prior to order being created.
   - Propose first iterations of ics+ event template and page.
-  - Target v1 functionality first.  Designs will come last.
+  - Focus on v1 Information Architecture and Functionality first and foremost.
+  - Page Layout Designs will come last.
+  - Populate this project candidate template with your responses.
 ---
 #### Version 1
   - [V1 Site Map](#v1-site-map)
