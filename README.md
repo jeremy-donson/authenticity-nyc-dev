@@ -2,20 +2,19 @@
 - Core Assignment Target = Jekyll Event Template: "Calendars Have Many Events."
   - [Diagram](https://tinyurl.com/AuthentiCityNYC-v1)
   - Context: We run [multiple FB groups](https://linktr.ee/authenticitynyc) where venues and performers promote local jazz events in NYC.
-  - Manual Process:
+  - Current Process:
     - Gather venue calendars in local group zipcodes.
     - Gather artist calendars in local group zipcodes.
     - Scrape calendar or request gCal events streams from venue owners and artists to AuthentiCityNYC@gmail.com
-    - try to find recurring events, as they are easiest to promote over time
-    - create fb event in local group => includes many features worth listing
-    - share that fb group event link out => create friendly event post url alias
-    - share that fb group event link URL alias out to MANY places => "free event post boosts"
-    - track impressions and conversions
+    - Target recurring events, as they are easiest to promote over time.
+    - Create fb event in local group => includes many features worth listing.
+    - Share that fb group event link out => create friendly event post url alias.
+    - Share that fb group event link URL alias out to MANY places => "free event post boosts"
+    - Track impressions and conversions.  Use this info to inform montly promo campaigns.
 ---
-There is no formal monthly campaign cycle right now.
-With this site we will work towards a monthly promo campaign cycle.
+There is no formal monthly campaign cycle right now.  With this site we will work towards a monthly promo campaign cycle.
 Evolving a template from proposed to final is an iterative process.
-The specs for v1 include ics + fb group events + gCal ics stream reads.
+The specs for v1 include [ics file format]() + fb group events + gCal ics stream reads.
 Version 1 has some goals for ics+ format.
 Version 2 has other goals for ics+ format.
 
@@ -35,7 +34,7 @@ Version 2 has other goals for ics+ format.
   - Support latest version of [ICS File Format Spec](https://icalendar.org/)
   - Support [FB Event Posts](https://www.facebook.com/events/3310363792539939) => Note that we can export an ics file from a FB event.
   - ![curl-or-selenium](https://user-images.githubusercontent.com/34130568/183911688-cbe75714-52f5-49eb-9072-2db3b55a25a6.png)
-    - [e757019095504419.ics.zip](https://github.com/jeremy-donson/authenticity-nyc-dev/files/9300497/e757019095504419.ics.zip)
+    - [Compressed Sample ICS File](https://github.com/jeremy-donson/authenticity-nyc-dev/files/9300497/e757019095504419.ics.zip)
     - That ics file was exported from this [fb event post](https://www.facebook.com/events/757019095504419/).
     - Focus on group events:  https://developers.facebook.com/docs/graph-api/reference/event/
   - Support [Calendar Sharing API](https://developers.google.com/calendar/api) => Who-Why-When-What-Where-How
