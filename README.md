@@ -2,14 +2,14 @@
 - Core Assignment Target = Jekyll Event Template: "Calendars Have Many Events."
   - [Diagram](https://tinyurl.com/AuthentiCityNYC-v1)
   - Context: We run [multiple FB groups](https://linktr.ee/authenticitynyc) where venues and performers promote local jazz events in NYC.
-  - authenticitynyc:
-    - find venue calendars in local group zipcodes
-    - find artist calendars in local group zipcodes
-    - scrape calendar or request gCal events streams from venue owners and artists
+  - Manual Process:
+    - Gather venue calendars in local group zipcodes.
+    - Gather artist calendars in local group zipcodes.
+    - Scrape calendar or request gCal events streams from venue owners and artists to AuthentiCityNYC@gmail.com
     - try to find recurring events, as they are easiest to promote over time
     - create fb event in local group => includes many features worth listing
     - share that fb group event link out => create friendly event post url alias
-    - share that fb group event link URL alias out to MANY places
+    - share that fb group event link URL alias out to MANY places => "free event post boosts"
     - track impressions and conversions
 ---
 There is no formal monthly campaign cycle right now.
@@ -19,30 +19,14 @@ The specs for v1 include ics + fb group events + gCal ics stream reads.
 Version 1 has some goals for ics+ format.
 Version 2 has other goals for ics+ format.
 
-We will both aggregate and syndicate:
-- aggregate: from gCal
-- syndicate: to FaceBook Group Events
+- We will both aggregate and syndicate event data and content:
+  - aggregate: from gCal
+  - syndicate: to FaceBook Group Events
 ---
 ### Project Reqs TOC
-- [Static Web Site Project Setups](#static-web-site-project-setups)
 - AuthentiCity-NYC [Version 1](#version-1)
 - AuthentiCity-NYC [Version 2](#version-2)
----
-#### Static Web Site Project Setups
-- All project setups
-  - Clarify version 1 static site project specs: AuthentiCity-NYC
-  - Configure and document code pipeline through approvals in qa environment.
-  - Provision dev access to github repos.  Start to use github issues and project board.
-  - Smooth the workflow of finalizing and testing template specs.
-  - Configure and document subdomain hosting for qa and prod environments.  Consider [Netlify hosting](https://www.netlify.com/).
-  - Verify best practices for [jekyll + ghub pages](#references).
-  - Migrate to github organization account: urbanspectra-nyc
-  - Look at [github actions](https://socsieng.github.io/blogging/2020/09/07/using-github-actions-over-github-pages.html) to support a more flexible build and deploy tool set.
-  - Look at [using gitpod with jekyll](https://talk.jekyllrb.com/t/new-video-develop-jekyll-or-github-pages-using-docker-containers/7199) for realtime team dev collaboration.
-  - We will use [postman](https://www.tecmint.com/install-postman-on-linux-desktop/) and [selenium](https://medium.com/@fortheloveoftech/automating-facebook-events-with-python-and-selenium-dca4c52e2513) for testing
-  - Review entire Static Site Project Setup process towards automation using terraform, vagrant and docker.
-  - Remember to test URLs for proper seo + [object graph tags](https://ogp.me/#types).  [Jekyll og info](https://gist.github.com/davidensinger/5431869).
-  - Consider [jekyll i18n tools](https://polyglot.untra.io/).
+- [Static Web Site Project Setups](#static-web-site-project-setups)
 ---
 #### Version 1
   - [V1 Site Map](#v1-site-map)
@@ -93,11 +77,30 @@ We will both aggregate and syndicate:
 
 #### Information Architecture
   - Calendars have many events.
-  - Local events count.  Events by zips?
+  - Event landing pages show many related events.
+  - We will need to query FB API for extended event post data and 
+  - Local events count.  Events by zipcodes.
   - ICS format syncs => Pull from FB Event Post / Push to FB Event Post => singleton + batch
   - Other API's:  gcal + eventbrite + meetup + ??
   - API GET calls are easy.  POST calls are not!!  Curl or [Selenium](https://github.com/ethanXWL/Python-Selenium-Facebook-group-auto-poster/blob/master/README.md)?
 
+---
+### Project Candidate Requirements
+- In General
+  - Candidate must have strong written and spoken english. => Accents are NO PROBLEM!!
+  - Candidate must have github id + ssh commit proof. => We can help you get setup on github if needed.
+  - Use zoom and signal for secure communication where we can reach clarity the fastest.
+  - Hours of regular availability for work and for meetings are to be clarified, including timezone considerations.
+
+- Project-Specific Skills
+  - Main tasks require jekyll templates from project specs and completed html.
+  - Knowledge of Facebook Graph API Queries.
+
+- To Get Started:
+  - Local system machine + OS info + IP.
+  - Connect via email.
+  - Review github project specs (README.md).
+  - Ask for simplest first small assignment.  Determine exact deliverables prior to order being created.
 ---
 #### Version 2
   - [Site Map](#v2-site-map)
@@ -105,6 +108,24 @@ We will both aggregate and syndicate:
 
 - https://mincong.io/en/jekyll-i18n/
 - https://www.klaasnotfound.com/2017/02/16/proper-multilingual-site-with-github-pages-and-jekyll/
+
+#### Static Web Site Project Setups
+- All project setups
+  - Clarify version 1 static site project specs: AuthentiCity-NYC
+  - Configure and document code pipeline through approvals in qa environment.
+  - Provision dev access to github repos.  Start to use github issues and project board.
+  - Smooth the workflow of finalizing and testing template specs.
+  - Configure and document subdomain hosting for qa and prod environments.  Consider [Netlify hosting](https://www.netlify.com/).
+  - Verify best practices for [jekyll + ghub pages](#references).
+  - Migrate to github organization account: urbanspectra-nyc
+  - Look at [github actions](https://socsieng.github.io/blogging/2020/09/07/using-github-actions-over-github-pages.html) to support a more flexible build and deploy tool set.
+  - Look at [using gitpod with jekyll](https://talk.jekyllrb.com/t/new-video-develop-jekyll-or-github-pages-using-docker-containers/7199) for realtime team dev collaboration.
+  - We will use [postman](https://www.tecmint.com/install-postman-on-linux-desktop/) and [selenium](https://medium.com/@fortheloveoftech/automating-facebook-events-with-python-and-selenium-dca4c52e2513) for testing
+  - Review entire Static Site Project Setup process towards automation using terraform, vagrant and docker.
+  - Remember to test URLs for proper seo + [object graph tags](https://ogp.me/#types).  [Jekyll og info](https://gist.github.com/davidensinger/5431869).
+  - Consider [jekyll i18n tools](https://polyglot.untra.io/).
+---
+
 
 #### References
 - [Docs: Github Pages Using Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll)
