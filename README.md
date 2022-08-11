@@ -1,6 +1,25 @@
 ## AuthentiCity-NYC Project: Dev Repo
 - Core Assignment Target = Jekyll Event Template: "Calendars Have Many Events."
+  - [Diagram](https://tinyurl.com/AuthentiCityNYC-v1)
   - Context: We run [multiple FB groups](https://linktr.ee/authenticitynyc) where venues and performers promote local jazz events in NYC.
+  - authenticitynyc:
+    - find venue calendars in local group zipcodes
+    - find artist calendars in local group zipcodes
+    - scrape calendar or request gCal events streams from venue owners and artists
+    - try to find recurring events, as they are easiest to promote over time
+    - create fb event in local group => includes many features worth listing
+    - share that fb group event link out => create friendly event post url alias
+    - share that fb group event link URL alias out to MANY places
+    - track impressions and conversions
+---
+There is no formal monthly campaign cycle right now.
+With this site we will work towards a monthly promo campaign cycle.
+Evolving a template from proposed to final is an iterative process.
+The specs for v1 include ics + fb group events + gCal ics stream reads.
+Version 1 has some goals for ics+ format.
+Version 2 has other goals for ics format.
+
+We will both syndicate and aggregate.
 ---
 ### Project Reqs TOC
 - [Static Web Site Project Setups](#static-web-site-project-setups)
