@@ -31,7 +31,8 @@ Version 2 has other goals for ics+ format.
 ### Project Candidate Requirements
 - In General:
   - Candidate must have strong written and spoken english. => Accents are NO PROBLEM!!
-  - Candidate must have github id + ssh commit proof. => We can help you get setup securely on github if needed.
+  - Candidate must have github id + ssh commit proof. We will github issues to track task progress.
+     => We can help you get setup securely on github if needed.
   - Use zoom and signal for secure communication where we can reach clarity the fastest.
   - Hours of regular availability for work and for meetings are to be clarified, including timezone considerations.
   - Local system machine + OS info + IP
