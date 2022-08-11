@@ -17,9 +17,11 @@ With this site we will work towards a monthly promo campaign cycle.
 Evolving a template from proposed to final is an iterative process.
 The specs for v1 include ics + fb group events + gCal ics stream reads.
 Version 1 has some goals for ics+ format.
-Version 2 has other goals for ics format.
+Version 2 has other goals for ics+ format.
 
-We will both syndicate and aggregate.
+We will both aggregate and syndicate:
+- aggregate: from gCal
+- syndicate: to FaceBook Group Events
 ---
 ### Project Reqs TOC
 - [Static Web Site Project Setups](#static-web-site-project-setups)
