@@ -11,8 +11,8 @@
     - Share that fb group event link out => create friendly event post url alias.
     - Share that fb group event link URL alias out to MANY places => "free event post boosts"
     - Track impressions and conversions.  Use this info to inform montly promo campaigns.
+  - There is no formal monthly campaign cycle right now.  With this site we will work towards a monthly promo campaign cycle.
 ---
-There is no formal monthly campaign cycle right now.  With this site we will work towards a monthly promo campaign cycle.
 Evolving a template from proposed to final is an iterative process.
 The specs for v1 include [ics file format]() + fb group events + gCal ics stream reads.
 Version 1 has some goals for ics+ format.
@@ -23,9 +23,36 @@ Version 2 has other goals for ics+ format.
   - syndicate: to FaceBook Group Events
 ---
 ### Project Reqs TOC
+- [Project Candidate Requirements](#project-candidate-requirements)
 - AuthentiCity-NYC [Version 1](#version-1)
 - AuthentiCity-NYC [Version 2](#version-2)
 - [Static Web Site Project Setups](#static-web-site-project-setups)
+---
+### Project Candidate Requirements
+- In General:
+  - Candidate must have strong written and spoken english. => Accents are NO PROBLEM!!
+  - Candidate must have github id + ssh commit proof. => We can help you get setup securely on github if needed.
+  - Use zoom and signal for secure communication where we can reach clarity the fastest.
+  - Hours of regular availability for work and for meetings are to be clarified, including timezone considerations.
+  - Local system machine + OS info + IP
+  - Connect via email and signal.  We will use Fiverr for orders and payments.
+  - Do you want short-term work, or are you looking for recurring work?
+  - Speak to whether you want to work solo or with a team.
+
+- Project-Specific Skills:
+  - Required: Main tasks require github pages from jekyll templates and completed html.
+  - Required: Some Knowledge of Facebook Graph API Queries.
+  - Required: Basic Bash/Linux CLI Skills
+  - Nice To Have: Knowledge of Github Pages + Actions.
+
+- To Get Started:
+  - Show that you can run jekyll locally as well as via github pages.
+  - Show a completed project where you did that same kind of work.
+  - Review github project specs (README.md).  Inquire about diagram.
+  - Target First Small Assignment: ICS+ Format Version 1 event template and page.
+    - Determine exact deliverables prior to order being created.
+  - Propose first iterations of ics+ event template and page.
+  - Target v1 functionality first.  Designs will come last.
 ---
 #### Version 1
   - [V1 Site Map](#v1-site-map)
@@ -83,24 +110,6 @@ Version 2 has other goals for ics+ format.
   - Other API's:  gcal + eventbrite + meetup + ??
   - API GET calls are easy.  POST calls are not!!  Curl or [Selenium](https://github.com/ethanXWL/Python-Selenium-Facebook-group-auto-poster/blob/master/README.md)?
 
----
-### Project Candidate Requirements
-- In General
-  - Candidate must have strong written and spoken english. => Accents are NO PROBLEM!!
-  - Candidate must have github id + ssh commit proof. => We can help you get setup on github if needed.
-  - Use zoom and signal for secure communication where we can reach clarity the fastest.
-  - Hours of regular availability for work and for meetings are to be clarified, including timezone considerations.
-
-- Project-Specific Skills
-  - Main tasks require jekyll templates from project specs and completed html.
-  - Knowledge of Facebook Graph API Queries.
-
-- To Get Started:
-  - Local system machine + OS info + IP.
-  - Connect via email.
-  - Review github project specs (README.md).
-  - Ask for simplest first small assignment.  Determine exact deliverables prior to order being created.
----
 #### Version 2
   - [Site Map](#v2-site-map)
   - [Info Achitecture](#v2-info-architecture)
